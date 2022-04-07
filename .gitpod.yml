@@ -6,6 +6,20 @@ tasks:
       
     command: sfdx --version
 
+vscode:
+  extensions:
+    - salesforce.salesforce-vscode-slds
+    - salesforce.salesforcedx-vscode
+    - salesforce.salesforcedx-vscode-apex
+    - salesforce.salesforcedx-vscode-apex-debugger
+    - salesforce.salesforcedx-vscode-apex-replay-debugger
+    - salesforce.salesforcedx-vscode-core
+    - salesforce.salesforcedx-vscode-expanded
+    - salesforce.salesforcedx-vscode-lightning
+    - salesforce.salesforcedx-vscode-lwc
+    - salesforce.salesforcedx-vscode-soql
+    - salesforce.salesforcedx-vscode-visualforce
+    
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
   - port: 3000
